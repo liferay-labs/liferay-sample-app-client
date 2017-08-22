@@ -1,0 +1,15 @@
+{namespace View}
+
+/**
+ * Prints the Sample Client App portlet main view.
+ */
+{template .render}
+	{@param id: string}
+	{@param products: list<?>}
+
+	<div id="{$id}">
+		 {foreach $product in $products}
+			<p>{$product.name} : {$product.price} {$product.currency}</p>
+		{/foreach}
+	</div>
+{/template}

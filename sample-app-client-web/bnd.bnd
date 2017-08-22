@@ -1,0 +1,7 @@
+Bundle-Name: Liferay Sample App Client
+Bundle-SymbolicName: com.liferay.sample.app.client.web
+Bundle-Version: 1.0.10
+Require-Capability:\
+	soy;\
+		filter:="(type=metal)"
+Web-ContextPath: /sample-app-client-web
